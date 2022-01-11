@@ -3,7 +3,7 @@
 //  Diary
 //
 //  Created by EunYupp Kim on 2022/01/08.
-//
+// privaer good eveening set of that good evening !!
 
 import UIKit
 
