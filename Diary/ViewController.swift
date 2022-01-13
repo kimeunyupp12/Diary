@@ -3,7 +3,6 @@
 //  Diary
 //
 //  Created by EunYupp Kim on 2022/01/08.
-// privaer good eveening set of that good evening !!
 
 import UIKit
 
@@ -135,5 +134,8 @@ extension ViewController: DiaryDetailViewDelegate {
     func didSelectDelete(indexPath: IndexPath) {
         self.diaryList.remove(at: indexPath.row)
         self.collectionView.deleteItems(at: [indexPath])
+    }
+    func didSelectStar(indexPath: IndexPath, isStar: Bool) {
+        self.diaryList[indexPath.row].isStar = isStar
     }
 }
