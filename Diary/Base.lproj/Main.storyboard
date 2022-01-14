@@ -110,6 +110,10 @@
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="414" height="80"/>
+                                        <connections>
+                                            <outlet property="dateLabel" destination="EXT-nA-skJ" id="HUH-rY-NLA"/>
+                                            <outlet property="titleLabel" destination="qd3-vj-j1H" id="yyd-ww-De7"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
